@@ -20,12 +20,7 @@ var carros = [
         imagem: './img/4.png', 
         descricao: 'O Chevrolet Camaro é um muscle car icônico, conhecido por seu motor potente e design robusto, trazendo emoção e adrenalina ao dirigir.' 
     }
-    { 
-        nome: 'Camaro', 
-        imagem: './img/4.png', 
-        descricao: 'O Chevrolet Camaro é um muscle car icônico, conhecido por seu motor potente e design robusto, trazendo emoção e adrenalina ao dirigir.' 
-    }
-    
+       
 ];
 
 // Variável para armazenar o índice do carro atual
