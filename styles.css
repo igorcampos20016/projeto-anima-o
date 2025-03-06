@@ -1,0 +1,130 @@
+/* Reset básico para remover margens e preenchimentos padrão dos elementos */
+* {
+    margin: 0; /* Remove a margem externa de todos os elementos */
+    padding: 0; /* Remove o preenchimento interno de todos os elementos */
+    box-sizing: border-box; /* Garante que a largura e altura dos elementos incluam padding e border */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para todos os textos */
+}
+
+/* Estilização do corpo da página */
+body {
+    background-color: #1a1a1a; /* Define um fundo escuro para a página */
+    color: red; /* Define a cor do texto para vermelho */
+}
+
+/* ========================= */
+/* Cabeçalho e Menu */
+/* ========================= */
+
+header {
+    display: flex; /* Usa flexbox para organizar os elementos do cabeçalho */
+    justify-content: space-between; /* Distribui os elementos do cabeçalho igualmente */
+    align-items: center; /* Centraliza verticalmente os itens */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    background: #000; /* Define a cor de fundo preta */
+    color: red; /* Define a cor do texto como vermelho */
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    width: 100%; /* Faz com que ocupe toda a largura da tela */
+    top: 0; /* Alinha o cabeçalho no topo da página */
+    left: 0; /* Garante que o cabeçalho inicie na borda esquerda */
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end; /* Alinha a logo à direita */
+}
+
+#logo {
+    width: 100px; /* Define o tamanho da logo */
+    height: auto;
+}
+
+
+/* Estilização do menu de navegação */
+nav ul {
+    list-style: none; /* Remove os estilos de lista (pontos ou números) */
+    display: flex; /* Organiza os itens horizontalmente */
+}
+
+/* Estilização dos itens da lista */
+nav ul li {
+    margin: 0 15px; /* Adiciona espaçamento lateral entre os itens */
+}
+
+/* Estilização dos links dentro da lista */
+nav ul li a {
+    color: red; /* Define a cor do texto como vermelho */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 16px; /* Define o tamanho da fonte */
+}
+
+/* ========================= */
+/* Conteúdo principal */
+/* ========================= */
+
+/* Estilização do contêiner dos carros */
+.car-container {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 50px; /* Adiciona um espaçamento superior */
+}
+
+/* Estilização do título principal */
+h1 {
+    font-size: 24px; /* Define o tamanho da fonte */
+    margin-bottom: 15px; /* Adiciona um espaçamento inferior */
+}
+
+/* Estilização das imagens */
+img {
+    width: 200px; /* Define a largura fixa */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para dar profundidade */
+}
+
+/* Estilização dos parágrafos */
+p {
+    font-size: 16px; /* Define o tamanho da fonte */
+    margin-top: 10px; /* Adiciona um espaçamento superior */
+    max-width: 500px; /* Define uma largura máxima para evitar textos muito longos */
+    margin-left: auto; /* Centraliza o parágrafo horizontalmente */
+    margin-right: auto; /* Centraliza o parágrafo horizontalmente */
+}
+
+/* ========================= */
+/* Botões */
+/* ========================= */
+
+.buttons {
+    margin-top: 20px; /* Adiciona espaçamento acima dos botões */
+}
+
+/* Estilização dos botões */
+button {
+    padding: 10px 15px; /* Define espaçamento interno */
+    font-size: 16px; /* Define o tamanho da fonte */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Transforma o cursor em um ponteiro ao passar sobre o botão */
+    background: red; /* Define a cor de fundo como vermelho */
+    color: white; /* Define a cor do texto como branco */
+    margin: 0 5px; /* Adiciona espaçamento horizontal entre os botões */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    transition: 0.3s; /* Adiciona uma transição suave ao mudar o estado do botão */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background: #444; /* Muda a cor de fundo para cinza escuro */
+}
+
+/* ========================= */
+/* Correção no seletor de imagem repetido */
+/* ========================= */
+
+img {
+    width: 700px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 5px rgba; /* Adiciona uma sombra */
+}

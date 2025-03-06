@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Carros de Luxo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 🔹 HEADER -->
+<header>
+    <div class="logo">
+        <img src="./img/logo.png" alt="Logo" id="logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cadastre-se</a></li>
+            <li><a href="#">Pesquise</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- 🔹 CONTEÚDO PRINCIPAL -->
+    <div class="car-container">
+        <h1 id="car-name">Porsche 911</h1> <!-- Nome do carro -->
+        <img id="car-image" src="./img/1.png" alt="Carro de Luxo"> <!-- Imagem do carro -->
+        <p id="car-description">
+            <strong>Carros de Luxo:</strong> O Porsche 911 é um dos carros esportivos mais emblemáticos do mundo. Lançado em 1964, combina desempenho impressionante com design icônico.
+        </p>
+        <div class="buttons">
+            <button onclick="mudarCarro(-1)">Anterior</button>
+            <button onclick="mudarCarro(1)">Próximo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>
